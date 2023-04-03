@@ -42,11 +42,11 @@ const userSchema = new mongoose.Schema(
       maxlength: 10
     },
     password: {
-        type: String,
-        required: true,
-        minlength: 4,
-        maxlength: 256
-      },
+      type: String,
+      required: true,
+      minlength: 4,
+      maxlength: 256
+    },
 
   },
   {

@@ -8,13 +8,13 @@ const addInputSchema = new mongoose.Schema(
       required: true,
     },
     addInput_content: {
-        type: String,
-        required: true,
-        minlength: 8,
-        maxlength: 150,
-      },
-   
-   
+      type: String,
+      required: true,
+      minlength: 8,
+      maxlength: 150,
+    },
+
+
   },
   {
     timestamps: true,

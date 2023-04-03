@@ -8,7 +8,7 @@ const ResponsibilitiesSchema = new mongoose.responsibilitiesSchema(
       required: true,
     },
     headquarters: {
-      type: String, // 
+      type: String,
       required: true,
       enum: ["M", "D"],
     },

@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const elementSchema = new mongoose.Schema(
-    {  
+    {
         subprocess_id: {
             type: mongoose.Schema.Types.ObjectId,
             required: true,
@@ -10,14 +10,13 @@ const elementSchema = new mongoose.Schema(
             required: true,
             minlength: 2,
             maxlength: 50,
-            unique: true,
         },
-        description : {
+        description: {
             type: String,
             minlength: 3,
             maxlength: 500,
         }
-        
+
     },
     {
         timestamps: true,

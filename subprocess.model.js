@@ -11,7 +11,6 @@ const Schema = new mongoose.Schema(
             required: true,
             minlength: 2,
             maxlength: 50,
-            unique: true,
         },
         
     },

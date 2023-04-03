@@ -8,16 +8,16 @@ const indicatorSchema = new mongoose.Schema(
       required: true,
     },
     name: {
-        type: String,
-        required: true,
-        minlength: 2,
-        maxlength: 50,
+      type: String,
+      required: true,
+      minlength: 2,
+      maxlength: 50,
     },
     unit: {
-        type: String,
-        required: true,
-        minlength: 2,
-        maxlength: 32,
+      type: String,
+      required: true,
+      minlength: 2,
+      maxlength: 32,
     },
 
     goal: {
@@ -26,11 +26,11 @@ const indicatorSchema = new mongoose.Schema(
 
     },
     achieved: {
-        type: Number, // 
-        required: true,
-  
-      },
-    
+      type: Number, // 
+      required: true,
+
+    },
+
   },
   {
     timestamps: true,

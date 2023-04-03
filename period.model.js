@@ -1,6 +1,4 @@
 const mongoose = require('mongoose');
-
-
 const periodSchema = new mongoose.Schema(
   {
     year: {
